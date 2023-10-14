@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7FF74A2ADABEAA00176629 /* BroadcastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7FF7482ADABEAA00176629 /* BroadcastCollectionViewCell.swift */; };
+		ED7FF74B2ADABEAA00176629 /* BroadcastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED7FF7492ADABEAA00176629 /* BroadcastCollectionViewCell.xib */; };
 		EDA9AB212ADA650200105F08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB202ADA650200105F08 /* AppDelegate.swift */; };
 		EDA9AB232ADA650200105F08 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB222ADA650200105F08 /* SceneDelegate.swift */; };
-		EDA9AB252ADA650200105F08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB242ADA650200105F08 /* ViewController.swift */; };
 		EDA9AB282ADA650200105F08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA9AB262ADA650200105F08 /* Main.storyboard */; };
 		EDA9AB2A2ADA650500105F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA9AB292ADA650500105F08 /* Assets.xcassets */; };
 		EDA9AB2D2ADA650500105F08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA9AB2B2ADA650500105F08 /* LaunchScreen.storyboard */; };
+		EDA9AB382ADA656F00105F08 /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDA9AB372ADA656F00105F08 /* dark_background.pdf */; };
+		EDA9AB3A2ADA657900105F08 /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDA9AB392ADA657900105F08 /* light_background.pdf */; };
+		EDA9AB3C2ADA65AC00105F08 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB3B2ADA65AC00105F08 /* WeatherModel.swift */; };
+		EDA9AB3F2ADA65C100105F08 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB3D2ADA65C100105F08 /* WeatherData.swift */; };
+		EDA9AB402ADA65C100105F08 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB3E2ADA65C100105F08 /* WeatherManager.swift */; };
+		EDA9AB442ADA65D000105F08 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB422ADA65D000105F08 /* BroadcastViewController.swift */; };
+		EDA9AB4A2ADAA65B00105F08 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA9AB492ADAA65B00105F08 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7FF7482ADABEAA00176629 /* BroadcastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED7FF7492ADABEAA00176629 /* BroadcastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BroadcastCollectionViewCell.xib; sourceTree = "<group>"; };
 		EDA9AB1D2ADA650200105F08 /* WeatherAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDA9AB202ADA650200105F08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDA9AB222ADA650200105F08 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EDA9AB242ADA650200105F08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDA9AB272ADA650200105F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDA9AB292ADA650500105F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDA9AB2C2ADA650500105F08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDA9AB2E2ADA650500105F08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA9AB372ADA656F00105F08 /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dark_background.pdf; path = "../../../Documents/IOS StoryBoard Projects/Clima/Clima/dark_background.pdf"; sourceTree = "<group>"; };
+		EDA9AB392ADA657900105F08 /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = light_background.pdf; path = "../../../Documents/IOS StoryBoard Projects/Clima/Clima/light_background.pdf"; sourceTree = "<group>"; };
+		EDA9AB3B2ADA65AC00105F08 /* WeatherModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = "../../../../Documents/IOS StoryBoard Projects/Clima/Clima/Model/WeatherModel.swift"; sourceTree = "<group>"; };
+		EDA9AB3D2ADA65C100105F08 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = "../../../../Documents/IOS StoryBoard Projects/Clima/Clima/Model/WeatherData.swift"; sourceTree = "<group>"; };
+		EDA9AB3E2ADA65C100105F08 /* WeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = "../../../../Documents/IOS StoryBoard Projects/Clima/Clima/Model/WeatherManager.swift"; sourceTree = "<group>"; };
+		EDA9AB422ADA65D000105F08 /* BroadcastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BroadcastViewController.swift; path = "../../../../Documents/IOS StoryBoard Projects/Clima/Clima/Controller/BroadcastViewController.swift"; sourceTree = "<group>"; };
+		EDA9AB492ADAA65B00105F08 /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherViewController.swift; path = "../../../Clima-iOS13-Completed/Clima/Controller/WeatherViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED7FF7452ADABE7300176629 /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FF7482ADABEAA00176629 /* BroadcastCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		ED7FF74C2ADABEB600176629 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FF7492ADABEAA00176629 /* BroadcastCollectionViewCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		EDA9AB142ADA650200105F08 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +90,45 @@
 			children = (
 				EDA9AB202ADA650200105F08 /* AppDelegate.swift */,
 				EDA9AB222ADA650200105F08 /* SceneDelegate.swift */,
-				EDA9AB242ADA650200105F08 /* ViewController.swift */,
-				EDA9AB262ADA650200105F08 /* Main.storyboard */,
+				EDA9AB362ADA652000105F08 /* Controllers */,
+				EDA9AB352ADA651700105F08 /* Views */,
+				EDA9AB342ADA651000105F08 /* Model */,
 				EDA9AB292ADA650500105F08 /* Assets.xcassets */,
 				EDA9AB2B2ADA650500105F08 /* LaunchScreen.storyboard */,
 				EDA9AB2E2ADA650500105F08 /* Info.plist */,
+				EDA9AB372ADA656F00105F08 /* dark_background.pdf */,
+				EDA9AB392ADA657900105F08 /* light_background.pdf */,
 			);
 			path = WeatherAssignment;
+			sourceTree = "<group>";
+		};
+		EDA9AB342ADA651000105F08 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDA9AB3D2ADA65C100105F08 /* WeatherData.swift */,
+				EDA9AB3E2ADA65C100105F08 /* WeatherManager.swift */,
+				EDA9AB3B2ADA65AC00105F08 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDA9AB352ADA651700105F08 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FF74C2ADABEB600176629 /* XIBs */,
+				EDA9AB262ADA650200105F08 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EDA9AB362ADA652000105F08 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED7FF7452ADABE7300176629 /* CollectionViewCell */,
+				EDA9AB422ADA65D000105F08 /* BroadcastViewController.swift */,
+				EDA9AB492ADAA65B00105F08 /* WeatherViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7FF74B2ADABEAA00176629 /* BroadcastCollectionViewCell.xib in Resources */,
+				EDA9AB3A2ADA657900105F08 /* light_background.pdf in Resources */,
+				EDA9AB382ADA656F00105F08 /* dark_background.pdf in Resources */,
 				EDA9AB2D2ADA650500105F08 /* LaunchScreen.storyboard in Resources */,
 				EDA9AB2A2ADA650500105F08 /* Assets.xcassets in Resources */,
 				EDA9AB282ADA650200105F08 /* Main.storyboard in Resources */,
@@ -138,8 +205,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDA9AB252ADA650200105F08 /* ViewController.swift in Sources */,
+				EDA9AB442ADA65D000105F08 /* BroadcastViewController.swift in Sources */,
+				EDA9AB402ADA65C100105F08 /* WeatherManager.swift in Sources */,
+				ED7FF74A2ADABEAA00176629 /* BroadcastCollectionViewCell.swift in Sources */,
+				EDA9AB3F2ADA65C100105F08 /* WeatherData.swift in Sources */,
 				EDA9AB212ADA650200105F08 /* AppDelegate.swift in Sources */,
+				EDA9AB4A2ADAA65B00105F08 /* WeatherViewController.swift in Sources */,
+				EDA9AB3C2ADA65AC00105F08 /* WeatherModel.swift in Sources */,
 				EDA9AB232ADA650200105F08 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GZDV83GR4U;
+				DEVELOPMENT_TEAM = RT5B35RLV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -320,7 +392,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GZDV83GR4U;
+				DEVELOPMENT_TEAM = RT5B35RLV7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = WeatherAssignment/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
